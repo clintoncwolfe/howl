@@ -1,11 +1,11 @@
-[0m├─ bugsnag─0.1.3
+[0m├─ bugsnag─0.1.4
 ├─ cowboy─1.0.4
 │  └─ cowlib─1.0.2
 ├─ edown─0.7.0
 ├─ eper─0.94.0
-├─ fifo_lager─0.1.3
-│  ├─ lager_graylog─0.1.0
-│  └─ lager_logstash_backend─0.1.0
+├─ fifo_lager─0.1.4
+│  ├─ lager_graylog─0.1.1
+│  └─ lager_logstash_backend─0.1.1
 ├─ fifo_utils─0.1.22
 │  └─ uuid─1.5.1
 │     └─ quickrand─1.5.1
@@ -47,7 +47,7 @@
 │  ├─ poolboy─0.8.1-p3
 │  ├─ riak_ensemble─2.1.3
 │  └─ riak_sysmon─2.1.2
-└─ wiggle─0.8.1p1
+└─ wiggle─0.8.1p2
    ├─ cowboy_oauth─0.2.14
    │  └─ erlydtl─0.11.1
    ├─ dqe─0.1.36
