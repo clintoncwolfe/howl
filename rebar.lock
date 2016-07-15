@@ -69,7 +69,7 @@
  {<<"poolboy">>,{pkg,<<"basho_poolboy">>,<<"0.8.1-p3">>},1},
  {<<"pooler">>,{pkg,<<"pooler">>,<<"1.5.0">>},2},
  {<<"qdate">>,{pkg,<<"qdate">>,<<"0.4.3">>},2},
- {<<"quickrand">>,{pkg,<<"quickrand">>,<<"1.5.1">>},2},
+ {<<"quickrand">>,{pkg,<<"quickrand">>,<<"1.5.2-rc1">>},2},
  {<<"ranch">>,
   {git,"https://github.com/project-fifo/ranch.git",
        {ref,"fe8fb752a3a32ba991625e9078e0ed258f6c272b"}},
@@ -84,5 +84,5 @@
  {<<"uuid">>,{pkg,<<"uuid_erl">>,<<"1.5.1">>},1},
  {<<"wiggle">>,
   {git,"https://github.com/project-fifo/wiggle-app.git",
-       {ref,"f3b6e2bdacced7f33067d8288548f78aa6f74a1a"}},
+       {ref,"4b01396d9ba2a7c94f3bc7f359dd19a8e1e065dc"}},
   0}].
