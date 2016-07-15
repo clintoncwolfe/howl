@@ -1,4 +1,4 @@
-VERSION=0.8.2p1
+VERSION=0.8.2p2
 COMPONENT_INTERNAL=howl
 COMPONENT=fifo-howl
 DEPS="erlang" "coreutils" "sudo" "grep" "zlib" "bzip2" "gcc47-libs"
