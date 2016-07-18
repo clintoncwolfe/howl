@@ -45,7 +45,7 @@
   0},
  {<<"fifo_s3">>,
   {git,"https://github.com/project-fifo/fifo_s3.git",
-       {ref,"ae0b43f766e3f694a7a13137b29e3bb0932084b1"}},
+       {ref,"674376ca7962bb8b6af4d92976cd1d93155fcca6"}},
   1},
  {<<"fifo_spec">>,{pkg,<<"fifo_spec">>,<<"0.1.27">>},1},
  {<<"fifo_utils">>,
@@ -117,5 +117,5 @@
  {<<"uuid">>,{pkg,<<"uuid_erl">>,<<"1.5.1">>},1},
  {<<"wiggle">>,
   {git,"https://github.com/project-fifo/wiggle-app.git",
-       {ref,"a378e6f42d46ad9ec1b548a8dfe4310b2a7fbfbc"}},
+       {ref,"7504df08852f8950173c21666677012f25e29aaa"}},
   0}].
