@@ -30,13 +30,14 @@
 ├─ msgpack─0.3.5
 ├─ ranch─1.2.1p
 ├─ recon─2.3.1
-├─ riak_core─2.2.5
+├─ riak_core─2.2.5+p1
 │  ├─ basho_stats─1.0.3
+│  ├─ blume─0.1.0
 │  ├─ chash─0.1.1
 │  ├─ clique─3.0.1
 │  ├─ cuttlefish─2.0.7
 │  │  └─ getopt─0.8.2
-│  ├─ eleveldb─2.1.3
+│  ├─ eleveldb─2.0.22
 │  ├─ erocksdb─0.4.1
 │  ├─ exometer_core─1.0.0
 │  │  ├─ folsom─0.8.3
