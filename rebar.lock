@@ -31,7 +31,7 @@
  {<<"exometer_core">>,{pkg,<<"exometer_core">>,<<"1.0.0">>},1},
  {<<"fifo_dt">>,{pkg,<<"fifo_dt">>,<<"0.1.69">>},1},
  {<<"fifo_lager">>,{pkg,<<"fifo_lager">>,<<"0.1.4">>},0},
- {<<"fifo_s3">>,{pkg,<<"fifo_s3">>,<<"0.2.5">>},1},
+ {<<"fifo_s3">>,{pkg,<<"fifo_s3">>,<<"0.2.6">>},1},
  {<<"fifo_spec">>,{pkg,<<"fifo_spec">>,<<"0.1.27">>},1},
  {<<"fifo_utils">>,{pkg,<<"fifo_utils">>,<<"0.1.22">>},0},
  {<<"folsom">>,{pkg,<<"folsom">>,<<"0.8.3">>},2},
@@ -84,5 +84,5 @@
  {<<"uuid">>,{pkg,<<"uuid_erl">>,<<"1.5.1">>},1},
  {<<"wiggle">>,
   {git,"https://github.com/project-fifo/wiggle-app.git",
-       {ref,"54c35034be6c9d14a3b87926fc4b92a202407cff"}},
+       {ref,"0f911ff98f75c1567ecd851a192e9526c43a40c1"}},
   0}].
