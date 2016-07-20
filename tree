@@ -37,13 +37,13 @@
 │  ├─ clique─3.0.1
 │  ├─ cuttlefish─2.0.7
 │  │  └─ getopt─0.8.2
-│  ├─ eleveldb─2.0.22
+│  ├─ eleveldb─2.2.19
 │  ├─ erocksdb─0.4.1
 │  ├─ exometer_core─1.0.0
-│  │  ├─ folsom─0.8.3
-│  │  │  └─ bear─0.8.3
 │  │  ├─ parse_trans─2.9.0
 │  │  └─ setup─1.7.0
+│  ├─ folsom─0.7.4
+│  │  └─ bear─0.8.3
 │  ├─ pbkdf2─2.0.0
 │  ├─ poolboy─0.8.1-p3
 │  ├─ riak_ensemble─2.1.3
