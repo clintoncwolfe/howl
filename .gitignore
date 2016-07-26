@@ -27,3 +27,4 @@ standalone.config
 .rebar
 TEST*
 _build
+rebar3.crashdump
