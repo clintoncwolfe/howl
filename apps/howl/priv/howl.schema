@@ -18,7 +18,7 @@
 %% @doc Enable or disable SSL compression
 {mapping, "ssl", "howl.ssl",
  [{default, on},
-  {datatype, {enum, [on, off, spdy]}}]}.
+  {datatype, {enum, [on, off]}}]}.
 
 %% @doc The port howl listens to.
 {mapping, "ssl.port", "howl.ssl_port",
@@ -184,10 +184,6 @@
   end
 }.
 
-{mapping, "http_server", "wiggle.http_server",
-  [{default, off},
-   merge]}.
-
 {mapping, "folsom_ddb.bucket", "folsom_ddb.bucket", [
     merge,
     {default, "fifo"}
@@ -203,5 +199,4 @@
 {mapping, "handoff.ip", "riak_core.handoff_ip", [
   {default, "127.0.0.1" },
   {datatype, string},
-  {validators, ["valid_ipaddr"]}
-]}.
+  {validators, ["valid_ipaddr"]}]}.
