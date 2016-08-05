@@ -56,8 +56,8 @@
 └─ wiggle─0.8.3
    ├─ cowboy_oauth─0.2.14
    │  └─ erlydtl─0.11.1
-   ├─ dqe─0.3.2
-   │  ├─ ddb_connection─0.1.7
+   ├─ dqe─0.3.3
+   │  ├─ ddb_connection─0.1.8
    │  ├─ dflow─0.1.5
    │  ├─ dqe_fun─0.1.9
    │  ├─ hdr_histogram─0.2.0
