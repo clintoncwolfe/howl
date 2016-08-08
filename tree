@@ -59,7 +59,7 @@
    ├─ dqe─0.3.3
    │  ├─ ddb_connection─0.1.8
    │  ├─ dflow─0.1.5
-   │  ├─ dqe_fun─0.1.9
+   │  ├─ dqe_fun─0.1.10
    │  ├─ hdr_histogram─0.2.0
    │  └─ qdate─0.4.3
    │     ├─ erlang_localtime─1.0.0
