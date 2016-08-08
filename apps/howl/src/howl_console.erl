@@ -1,7 +1,7 @@
 %% @doc Interface for howl-admin commands.
 -module(howl_console).
--export([connections/1]).
--ignore_xref([connections/1]).
+-export([connections/1, stats/1]).
+-ignore_xref([connections/1, stats/1]).
 
 
 connections(["snarl"]) ->
@@ -21,6 +21,16 @@ connections([]) ->
             error
     end.
 
+stats([]) ->
+    Codes = ['5xx', '4xx', '3xx', '2xx', '1xx', other],
+    io:format("Code            "
+              " Count    ~n"),
+    io:format("--------------------"
+              " ---------------~n", []),
+    [print_code(Code, get_code(Code)) || Code <- Codes].
+
+
+
 print_endpoints(Es) ->
     io:format("Hostname            "
               "                    "
@@ -38,7 +48,10 @@ print_endpoints(Es) ->
             ok
     end.
 
-
+get_code(Code) ->
+    folsom_metrics:get_metric_value({howl, http, codes, Code}).
+print_code(Code, Count) ->
+    io:format("~24s ~9b~n", [Code, Count]).
 print_endpoint({{Hostname, [{port, Port}, {ip, IP}]}, _, Fails}) ->
     HostPort = <<IP/binary, ":", Port/binary>>,
     io:format("~30s ~-24s ~9b~n", [Hostname, HostPort, Fails]).
