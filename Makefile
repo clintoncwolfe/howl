@@ -23,7 +23,8 @@ long-test:
 
 rel: update
 	$(REBAR) as prod compile
-	sh generate_zabbix_template.sh
+        # The HOWL-MIB.hlr file needed by this is gitignored, not included with github code
+	# sh generate_zabbix_template.sh
 	$(REBAR) as prod release
 
 package: rel
