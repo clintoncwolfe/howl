@@ -131,6 +131,7 @@ usage() {
     echo "                    diag | stat | status | transfer-limit | downgrade-objects | services"
     echo "                    ensemble-status | handoff | set | show | describe }"
     echo "               connections                        - shows the current connections to other srivces."
+    echo "               stats                              - information about the response status"
     echo "               ring                               - shows the ring."
 
 }
@@ -444,6 +445,11 @@ case "$1" in
         run howl_console connections $@
         ;;
 
+    stats)
+        shift
+        run howl_console stats $@
+        ;;
+    
     ## KV related
 
     join)
